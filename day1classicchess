@@ -1,0 +1,19 @@
+def determine_color(s):
+  s=s[0]
+  r=int(s[1])
+
+  c_n=ord(s)-ord(a)+1
+  if (c_n+r)%2==0:
+    print("Black")
+  else:
+    print("White")
+  
+def main():
+  import sys
+  input=sys.stdin.read
+  s=input().strip()
+  re=determine_color(s)
+  print(re)
+
+if __name__="__main__":
+    main()
